@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Post Title — Izu Obilom</title>
+
+    <meta name="description" content="One-line summary of the post." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fustat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css?v=8" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-transition-overlay" id="page-loader" aria-hidden="true">
+      <div class="loader-dots"><span></span><span></span><span></span></div>
+    </div>
+
+    <header class="site-header">
+      <a class="back-link" href="../blog.html">Blog</a>
+    </header>
+
+    <main id="main">
+      <div class="post-hero">
+        <div class="wrap-wide post-hero-inner">
+          <span class="post-category">Technology</span>
+
+          <h1>Post Title Goes Here</h1>
+          <div class="post-meta">
+            <span class="post-avatar">IO</span>
+            <span>Izu Obilom</span>
+            <span class="post-dot">&bull;</span>
+            <span>11 Jan 2026</span>
+            <span class="post-dot">&bull;</span>
+            <span>5 min read</span>
+          </div>
+          <div class="post-hero-img">
+            <img src="../assets/images/post-hero.jpg" alt="" loading="lazy" />
+          </div>
+        </div>
+        <div class="post-hero-fade"></div>
+      </div>
+
+      <div class="wrap-wide post-layout">
+        <aside class="post-sidebar">
+          <p class="card-eyebrow">Contents</p>
+          <nav class="post-toc">
+            <a href="#section-1" class="active">Section 1</a>
+            <a href="#section-2">Section 2</a>
+            <a href="#section-3">Section 3</a>
+          </nav>
+          <p class="card-eyebrow post-share-label">Share this post</p>
+          <div class="post-share">
+            <button
+              type="button"
+              class="icon-btn"
+              data-copy-link
+              aria-label="Copy link"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="15"
+                height="15"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1" />
+                <path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1" />
+              </svg>
+            </button>
+            <a
+              class="icon-btn"
+              href="#"
+              target="_blank"
+              rel="noopener"
+              aria-label="Share on X"
+              data-share="x"
+            >
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
+            <a
+              class="icon-btn"
+              href="#"
+              target="_blank"
+              rel="noopener"
+              aria-label="Share on LinkedIn"
+              data-share="linkedin"
+            >
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+          </div>
+        </aside>
+
+        <article class="post-content">
+          <section id="section-1">
+            <h2>Section 1</h2>
+            <p>First paragraph of this section.</p>
+            <p>Second paragraph, more detail.</p>
+          </section>
+          <section id="section-2">
+            <h2>Section 2</h2>
+            <p>Paragraph before the inline image.</p>
+            <img
+              src="../assets/images/post-inline.jpg"
+              alt=""
+              class="post-inline-img"
+              loading="lazy"
+            />
+            <p>Paragraph after the image.</p>
+            <blockquote class="post-quote">
+              "A pull quote worth calling out on its own."
+            </blockquote>
+          </section>
+          <section id="section-3">
+            <h2>Section 3</h2>
+            <p>Closing thoughts.</p>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="../js/script.js?v=8"></script>
+  </body>
+</html>
